@@ -123,7 +123,7 @@ export class PaymentsPageComponent implements OnInit,AfterViewInit {
           if (result.value) {
             Swal.fire('Order Confirmed!', 'Stay tuned for dispatch mails.', 'success');
           } else if (result.dismiss === Swal.DismissReason.cancel) {
-            Swal.fire('Cancelled', 'Could not process your payment', 'error');
+            Swal.fire('Cancelled', 'Could not process your payment !', 'error');
           }
         });
       }
