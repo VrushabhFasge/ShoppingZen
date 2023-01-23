@@ -1,0 +1,23 @@
+<!-- <div class="prodCards">
+        <div class="cards" *ngFor="let prod of trendingProd" >
+            <img src="{{prod.img}}" alt="">
+            <div>{{prod.name}}</div>
+            <div>{{prod.price}}</div>
+        </div>   
+</div> -->
+<div class="trending text-center">Hot Deals of the day 🔥🔥🔥</div>
+<div class="prodCards m-2">
+    <div class="card cards m-2" *ngFor="let prod of trendingProd | paginate: { itemsPerPage:3, currentPage: p } | filter : pData " style="width: 18rem;">
+        <img class="card-img-top" src="{{prod.img}}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{prod.name}}</h5>
+          <p class="card-text">{{prod.Description}}</p>
+          <a class="m-1 priceBtn btn btn-primary">{{"Rs" | priceFormatter:prod.price}}</a>
+          <button class="m-1 btn btn-success" (click)="addToCart(prod)">Add to cart</button>
+        </div>
+      </div>
+</div>
+
+<pagination-controls style="display: flex; justify-content: center;" (pageChange)="p = $event"></pagination-controls>
+
+

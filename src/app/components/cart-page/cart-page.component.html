@@ -1,0 +1,33 @@
+<div class="cartTable">
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Product Image</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor = "let item of cartItems">
+            <td><img class="cartImg" src="{{item.Img}}" alt="Loading..." srcset=""></td>
+            <td>{{item.Name}}</td>
+            <td>{{item.Description}}</td>
+            <td>{{item.Price}}</td>
+            <td><button class="btn btn-danger" (click)="deleteConfirmation(item.id)"><i class="fa fa-trash-o" aria-hidden="true"></i></button></td>
+          </tr>
+          
+        </tbody>
+      </table>
+</div>
+<div class="cartBtn">
+  <button (click)="returnHome()" class="m-1 returnHome btn btn-primary"><i class="mr-1 fa fa-arrow-circle-left" aria-hidden="true"></i>Return</button>
+  <button class="m-1 btn btn-success" (click)="checkOut()">Checkout <i class="ml-1 fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+  <!-- <button class="m-1 btn btn-success" routerLink="../checkout" >dummy <i class="ml-1 fa fa-arrow-circle-top" aria-hidden="true"></i></button> -->
+  
+</div>
+<div class="footer"> <app-footer></app-footer></div>
+
+<!-- <router-outlet></router-outlet> -->
+

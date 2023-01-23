@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/euclid-circular-a');
+
+.body{
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.header{
+    background-color: #3d5a80;
+    width: 100%;
+    margin: auto;
+    min-height: 60px;
+    color:white;
+    font-family: 'Euclid Circular A', sans-serif
+
+}
+
+.header > span{
+    margin-top:5px
+}
+
+.brandLogo >img {
+    text-align: left;
+    max-width: 150px;
+    border-radius: 5px;
+}
+.searchBar{
+    text-align: left;
+    margin: auto;
+    margin-left:35%;
+    border-style: none;
+    border-radius: 2px;
+    margin-top:15px
+}
+.logout{
+    float: right;
+    margin-right: 5px;
+}
+
+.body > div{
+    display: inline-block;
+}
+
+.categories{
+    width:25%;
+    background-color:#3d5a80;
+    float: left;
+    color:white;
+    height: 505px;
+    border-top:1px solid white;
+    overflow-y: scroll;
+}
+
+.changeableScreens{
+    width: 75%;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.footer{
+    float: left;
+    clear: both;
+    border-top:1px solid white;
+    width: 100%;
+    background-color: #3d5a80;
+    color:white
+}
+ .userAccount{
+    float: right;
+    font-size: 35px;
+    margin-right: 10px;
+ }
+
+ .cartBtn{
+    float:right;
+    margin-top: 100px;
+    font-size: 15px;
+    cursor: pointer;
+ }

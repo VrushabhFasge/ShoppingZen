@@ -1,0 +1,88 @@
+{
+  "userCredentials": [
+    {
+      "id": 101,
+      "Name": "Vrushabh",
+      "Password": "Vrushabh@123",
+      "Address": "wardha",
+      "Phone": "8446449990"
+    },
+    {
+      "id": 102,
+      "Name": "Tushar",
+      "Role": "Angular-Dev",
+      "Password": "Tushar@123",
+      "Address": "wardha"
+    },
+    {
+      "id": 103,
+      "Name": "Nitin",
+      "Role": "Android-Dev",
+      "Password": "Nitin@123"
+    },
+    {
+      "id": 104,
+      "Name": "Bhagvat",
+      "Role": "iOS-Dev",
+      "Password": "Bhagvat@123"
+    },
+    {
+      "id": 105,
+      "Name": "Pariksaht",
+      "Role": "Flutter-Dev",
+      "Password": 47000
+    },
+    {
+      "Name": "nishad",
+      "Role": "data analyst",
+      "Password": "34000",
+      "id": 106
+    },
+    {
+      "Name": "simpi",
+      "Role": "python dev",
+      "Password": "34000",
+      "id": 107
+    },
+    {
+      "Name": "realme",
+      "Password": "Realme@123",
+      "id": 108
+    },
+    {
+      "Name": "samsung",
+      "Password": "Samsung@123",
+      "id": 109
+    }
+  ],
+  "Products": [
+    {
+      "Name": "Dji MINI Drone",
+      "Description": "this is dynamic description2",
+      "Price": 45000,
+      "Img": "../../../assets/trendingProdImages/pexels-photo-1087180.webp",
+      "id": 1
+    },
+    {
+      "Name": "Apple macbook air",
+      "Description": "this is dynamic description3",
+      "Price": 100000,
+      "Img": "../../../assets/trendingProdImages/pexels-photo-2047905.webp",
+      "id": 2
+    },
+    {
+      "Name": "Dji MINI Drone",
+      "Description": "this is dynamic description2",
+      "Price": 45000,
+      "Img": "../../../assets/trendingProdImages/pexels-photo-1087180.webp",
+      "id": 4
+    },
+    {
+      "Name": "Canon DSLR",
+      "Description": "this is dynamic description5",
+      "Price": 20000,
+      "Img": "../../../assets/trendingProdImages/photo-camera-subject-photographer-51383.jpeg",
+      "id": 5
+    }
+  ]
+}

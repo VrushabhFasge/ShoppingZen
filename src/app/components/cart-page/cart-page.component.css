@@ -1,0 +1,32 @@
+.cartImg{
+    max-height: 200px;
+    max-width: 200px; 
+    border-radius:10px ;
+}
+
+.cartTable{
+    color:white;
+    background-color: white !important;
+}
+
+.cartTable > table > tbody > tr{
+    font-size: 20px;
+}
+
+.returnHome{
+    float:left
+}
+
+.cartBtn{
+    display: inline;
+    float:right
+}
+
+.footer{
+    float: left;
+    clear: both;
+    border-top:1px solid white;
+    width: 100%;
+    background-color: #3d5a80;
+    color:white
+}

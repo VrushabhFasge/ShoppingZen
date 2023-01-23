@@ -1,0 +1,50 @@
+@keyframes pan {
+    100%{
+        background-position: 15% 50%;
+    }
+}
+
+.formDiv{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url(../../../images/login_register.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: pan 6s infinite alternate linear;
+    height: 100vh;
+    
+}
+
+.card{
+    border-radius: 24px;
+    width: 105%;
+    margin-left: -16px;
+}
+
+.card-body{
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100%;
+}
+
+.login{
+    cursor: pointer;
+    color:#216ce7;
+    float: right;
+    margin-top: 4px;
+}
+
+.card-footer,.card>p{
+    margin-top:15px
+}
+
+.card-body > div > input{
+    margin-bottom: 5px;
+}
+
+.card-footer > span{
+    font-size: 15px;
+    margin-left: 10px
+}

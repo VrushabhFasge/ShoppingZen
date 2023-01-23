@@ -1,0 +1,22 @@
+.cards{
+    display: inline-block;
+}
+
+.cards > img{
+    max-height: 190px;
+}
+
+.prodCards{
+    display: flex;
+    justify-content: center;
+}
+
+.priceBtn{
+    color:white !important
+}
+
+.trending{
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 10px;
+}

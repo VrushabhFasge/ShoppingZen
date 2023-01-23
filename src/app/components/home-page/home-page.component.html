@@ -1,0 +1,28 @@
+<div class="homepage">
+    <div class="header"> 
+        <span class="brandLogo m-2">
+            <img src="../../../assets/BrandLogo/SZ logo.png" alt="" srcset="">
+        </span>
+        <span >
+            <input class="searchBar" placeholder="Search product" type="search" #refParent (keyup)= "getMessage(refParent.value)">
+            <!-- <button class="btn btn-primary" (click)="getMessage(refParent.value)">Search</button> -->
+
+        </span>
+        <span class="userAccount" [routerLink]='["../edit",userDbId]'><i style="cursor: pointer;" class="fa fa-user-circle-o" aria-hidden="true"></i></span>
+        <span class="logout">
+            <button class="btn btn-danger m-2" (click)="logOut()">Logout</button>
+        </span>
+        <span class="cartBtn" (click)="goToCart()"><button class="m-2 btn btn-warning"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button></span>
+        
+    </div>
+    <div class="body"> 
+        <div class="categories"><app-categories></app-categories></div>
+        <div class="changeableScreens">
+            <app-products [pData]="data"></app-products>
+            <!-- <app-products></app-products> -->
+            <div style="height: 1000px;"></div>
+
+        </div>    
+    </div>
+    <div class="footer"> <app-footer></app-footer></div>
+</div>

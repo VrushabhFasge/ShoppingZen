@@ -1,0 +1,15 @@
+.unorderedList{
+    list-style: none;
+    float: left;
+    clear: right;
+    padding-left: 10px;
+}
+
+.unorderedList >li{
+    padding: 5px 10px 10px 0;
+}
+.categoryIcon{
+    font-size: 15px;
+    float: left;
+    margin:5px
+}

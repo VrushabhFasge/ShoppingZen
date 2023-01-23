@@ -1,0 +1,29 @@
+<div class="formDiv">
+    <form #loginForm="ngForm" (ngSubmit)="userlogin(loginForm.value)" >
+        <div class="card">
+            <h5 class="text-center card-title card-header">
+              Welcome Back !!
+            </h5>
+            <p class="text-center card-text credText">Let's start from where you left</p>
+            <div class="card-text card-body">
+                <div class="col-sm-12">
+                    <label for="name">Enter Username/Email</label>
+                    <input type="text" name="name" class="form-control" placeholder="Enter name"  required ngModel>
+                </div>
+        
+                <div class="col-sm-12">
+                    <label for="pass">Enter Password</label>
+                    <input type="password" name="pass" class="form-control"  placeholder="Enter Email" required ngModel>
+                </div>
+        
+                
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary" type="submit">Log In</button>
+                <span class="login card-text" routerLink="">Don't have an account?</span>
+            </div>
+          </div>
+        
+    </form>
+</div>
+

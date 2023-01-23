@@ -1,0 +1,21 @@
+.unorderedList{
+    list-style: none;
+    text-align: center;
+}
+
+.unorderedList > li{
+     display: inline-flex;
+     justify-content: center;
+     margin: 10px;
+}
+
+.unorderedList >li >a{
+    color:white;
+    margin-top: 3px;
+}
+
+.socialMedia{
+    margin-top: 5px;
+    margin-right: 3px;
+    font-size: 20px;
+}
